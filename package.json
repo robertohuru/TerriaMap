@@ -64,7 +64,7 @@
     "terriajs": "https://github.com/robertohuru/terriajs.git#terriajs7",
     "terriajs-catalog-editor": "^0.2.0",
     "terriajs-cesium": "1.73.1",
-    "terriajs-schema": "latest",
+    "terriajs-schema": "https://github.com/robertohuru/terriajs-schema.git#master",
     "urijs": "^1.18.12",
     "url-loader": "^1.1.2",
     "webpack": "^4.29.5",
