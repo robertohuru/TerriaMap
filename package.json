@@ -4,7 +4,7 @@
   "description": "Geospatial catalog explorer based on TerriaJS.",
   "license": "Apache-2.0",
   "engines": {
-    "node": ">= 10.0.0"
+    "node": ">= 8.0.0"
   },
   "repository": {
     "type": "git",
@@ -47,7 +47,7 @@
     "husky": "^2.2.0",
     "json5": "^2.1.0",
     "node-notifier": "^5.1.2",
-    "node-sass": "^6.0.0",
+    "node-sass": "^4.14.1",
     "plugin-error": "^1.0.1",
     "prettier": "1.17.0",
     "pretty-quick": "^1.10.0",
@@ -76,7 +76,7 @@
     "docker-build-local": "node ./deploy/docker/create-docker-context-for-node-components.js --build --push --tag auto --local",
     "docker-build-prod": "node ./deploy/docker/create-docker-context-for-node-components.js --build --push --tag auto",
     "docker-build-ci": "node ./deploy/docker/create-docker-context-for-node-components.js --build",
-    "start": "pm2 start ecosystem.config.js --update-env -- --config-file devserverconfig.json",
+    "start": "pm2 start ecosystem.config.js --update-env -- --config-file serverconfig.json",
     "stop": "pm2 stop ecosystem.config.js",
     "pm2": "pm2",
     "gulp": "gulp",
